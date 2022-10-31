@@ -34,11 +34,17 @@ div {
     border-radius: 10px;
     margin: 20px 100px;
     text-align: center;
+    display: block;
+
 }
 
 ul {
     list-style-type: none;
-    padding-left: inherit;
+    padding-left: 0px;
+}
+
+li {
+    padding-bottom: 10px;
 }
 
 @media (max-width: 720px){
